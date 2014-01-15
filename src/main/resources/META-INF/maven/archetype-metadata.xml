@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="insight-osgi-bundle-archetype">
+  <fileSets>
+    <fileSet filtered="true" packaged="true" encode="UTF-8">
+      <directory>src/main/java</directory>
+      <includes>
+        <include>**/*.java</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="false" packaged="false" encode="UTF-8">
+      <directory>src/main/resources</directory>
+      <includes>
+        <include>readme.txt</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="false" packaged="false" encode="UTF-8">
+      <directory>META-INF</directory>
+      <includes>
+        <include>readme.txt</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" packaged="false" encode="UTF-8">
+      <directory></directory>
+      <includes>
+        <include>osgi.bnd</include>
+        <include>pom.xml</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+</archetype-descriptor>

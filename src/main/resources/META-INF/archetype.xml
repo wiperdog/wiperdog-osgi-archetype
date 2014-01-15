@@ -1,0 +1,9 @@
+<archetype>
+  <id>wiperdog-osgi-bundle-archetype</id>
+  <resources>
+    <resource>osgi.bnd</resource>
+    <resource>pom.xml</resource>
+    <resource>src/main/resources/readme.txt</resource>
+    <resource>src/main/java/internal/Activator.java</resource>
+  </resources>
+</archetype>
